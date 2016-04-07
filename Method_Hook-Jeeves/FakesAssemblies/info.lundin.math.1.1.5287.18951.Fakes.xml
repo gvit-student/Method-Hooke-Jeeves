@@ -1,0 +1,1568 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>info.lundin.math.1.1.5287.18951.Fakes</name>
+    </assembly>
+    <members>
+        <member name="T:info.lundin.math.Fakes.ShimDefaultOperators">
+            <summary>Тип оболочки совместимости для info.lundin.math.DefaultOperators</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.ShimDefaultOperators.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.ShimDefaultOperators.#ctor(info.lundin.math.DefaultOperators)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.ShimDefaultOperators.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.ShimDefaultOperators.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimDefaultOperators.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimDefaultOperators.Constructor">
+            <summary>Задает оболочка совместимости DefaultOperators.DefaultOperators()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimDefaultOperators.OperatorsGet">
+            <summary>Задает оболочка совместимости DefaultOperators.get_Operators()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimDefaultOperators._ctorb__10ExpressionParserNodeNode">
+            <summary>Задает оболочка совместимости DefaultOperators.&lt;.ctor&gt;b__10(ExpressionParser p, Node a, Node b)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimDefaultOperators._ctorb__11ExpressionParserNodeNode">
+            <summary>Задает оболочка совместимости DefaultOperators.&lt;.ctor&gt;b__11(ExpressionParser p, Node a, Node b)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimDefaultOperators._ctorb__12ExpressionParserNodeNode">
+            <summary>Задает оболочка совместимости DefaultOperators.&lt;.ctor&gt;b__12(ExpressionParser p, Node a, Node b)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimDefaultOperators._ctorb__13ExpressionParserNodeNode">
+            <summary>Задает оболочка совместимости DefaultOperators.&lt;.ctor&gt;b__13(ExpressionParser p, Node a, Node b)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimDefaultOperators._ctorb__14ExpressionParserNodeNode">
+            <summary>Задает оболочка совместимости DefaultOperators.&lt;.ctor&gt;b__14(ExpressionParser p, Node a, Node b)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimDefaultOperators._ctorb__15ExpressionParserNodeNode">
+            <summary>Задает оболочка совместимости DefaultOperators.&lt;.ctor&gt;b__15(ExpressionParser p, Node a, Node b)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimDefaultOperators._ctorb__16ExpressionParserNodeNode">
+            <summary>Задает оболочка совместимости DefaultOperators.&lt;.ctor&gt;b__16(ExpressionParser p, Node a, Node b)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimDefaultOperators._ctorb__17ExpressionParserNodeNode">
+            <summary>Задает оболочка совместимости DefaultOperators.&lt;.ctor&gt;b__17(ExpressionParser p, Node a, Node b)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimDefaultOperators._ctorb__18ExpressionParserNodeNode">
+            <summary>Задает оболочка совместимости DefaultOperators.&lt;.ctor&gt;b__18(ExpressionParser p, Node a, Node b)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimDefaultOperators._ctorb__19ExpressionParserNodeNode">
+            <summary>Задает оболочка совместимости DefaultOperators.&lt;.ctor&gt;b__19(ExpressionParser p, Node a, Node b)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimDefaultOperators._ctorb__1ExpressionParserNodeNode">
+            <summary>Задает оболочка совместимости DefaultOperators.&lt;.ctor&gt;b__1(ExpressionParser p, Node a, Node b)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimDefaultOperators._ctorb__1aExpressionParserNodeNode">
+            <summary>Задает оболочка совместимости DefaultOperators.&lt;.ctor&gt;b__1a(ExpressionParser p, Node a, Node b)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimDefaultOperators._ctorb__1bExpressionParserNodeNode">
+            <summary>Задает оболочка совместимости DefaultOperators.&lt;.ctor&gt;b__1b(ExpressionParser p, Node a, Node b)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimDefaultOperators._ctorb__1cExpressionParserNodeNode">
+            <summary>Задает оболочка совместимости DefaultOperators.&lt;.ctor&gt;b__1c(ExpressionParser p, Node a, Node b)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimDefaultOperators._ctorb__1dExpressionParserNodeNode">
+            <summary>Задает оболочка совместимости DefaultOperators.&lt;.ctor&gt;b__1d(ExpressionParser p, Node a, Node b)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimDefaultOperators._ctorb__1eExpressionParserNodeNode">
+            <summary>Задает оболочка совместимости DefaultOperators.&lt;.ctor&gt;b__1e(ExpressionParser p, Node a, Node b)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimDefaultOperators._ctorb__1fExpressionParserNodeNode">
+            <summary>Задает оболочка совместимости DefaultOperators.&lt;.ctor&gt;b__1f(ExpressionParser p, Node a, Node b)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimDefaultOperators._ctorb__20ExpressionParserNodeNode">
+            <summary>Задает оболочка совместимости DefaultOperators.&lt;.ctor&gt;b__20(ExpressionParser p, Node a, Node b)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimDefaultOperators._ctorb__21ExpressionParserNodeNode">
+            <summary>Задает оболочка совместимости DefaultOperators.&lt;.ctor&gt;b__21(ExpressionParser p, Node a, Node b)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimDefaultOperators._ctorb__22ExpressionParserNodeNode">
+            <summary>Задает оболочка совместимости DefaultOperators.&lt;.ctor&gt;b__22(ExpressionParser p, Node a, Node b)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimDefaultOperators._ctorb__23ExpressionParserNodeNode">
+            <summary>Задает оболочка совместимости DefaultOperators.&lt;.ctor&gt;b__23(ExpressionParser p, Node a, Node b)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimDefaultOperators._ctorb__24ExpressionParserNodeNode">
+            <summary>Задает оболочка совместимости DefaultOperators.&lt;.ctor&gt;b__24(ExpressionParser p, Node a, Node b)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimDefaultOperators._ctorb__25ExpressionParserNodeNode">
+            <summary>Задает оболочка совместимости DefaultOperators.&lt;.ctor&gt;b__25(ExpressionParser p, Node a, Node b)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimDefaultOperators._ctorb__2ExpressionParserNodeNode">
+            <summary>Задает оболочка совместимости DefaultOperators.&lt;.ctor&gt;b__2(ExpressionParser p, Node a, Node b)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimDefaultOperators._ctorb__3ExpressionParserNodeNode">
+            <summary>Задает оболочка совместимости DefaultOperators.&lt;.ctor&gt;b__3(ExpressionParser p, Node a, Node b)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimDefaultOperators._ctorb__4ExpressionParserNodeNode">
+            <summary>Задает оболочка совместимости DefaultOperators.&lt;.ctor&gt;b__4(ExpressionParser p, Node a, Node b)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimDefaultOperators._ctorb__5ExpressionParserNodeNode">
+            <summary>Задает оболочка совместимости DefaultOperators.&lt;.ctor&gt;b__5(ExpressionParser p, Node a, Node b)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimDefaultOperators._ctorb__6ExpressionParserNodeNode">
+            <summary>Задает оболочка совместимости DefaultOperators.&lt;.ctor&gt;b__6(ExpressionParser p, Node a, Node b)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimDefaultOperators._ctorb__7ExpressionParserNodeNode">
+            <summary>Задает оболочка совместимости DefaultOperators.&lt;.ctor&gt;b__7(ExpressionParser p, Node a, Node b)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimDefaultOperators._ctorb__8ExpressionParserNodeNode">
+            <summary>Задает оболочка совместимости DefaultOperators.&lt;.ctor&gt;b__8(ExpressionParser p, Node a, Node b)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimDefaultOperators._ctorb__9ExpressionParserNodeNode">
+            <summary>Задает оболочка совместимости DefaultOperators.&lt;.ctor&gt;b__9(ExpressionParser p, Node a, Node b)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimDefaultOperators._ctorb__aExpressionParserNodeNode">
+            <summary>Задает оболочка совместимости DefaultOperators.&lt;.ctor&gt;b__a(ExpressionParser p, Node a, Node b)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimDefaultOperators._ctorb__bExpressionParserNodeNode">
+            <summary>Задает оболочка совместимости DefaultOperators.&lt;.ctor&gt;b__b(ExpressionParser p, Node a, Node b)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimDefaultOperators._ctorb__cExpressionParserNodeNode">
+            <summary>Задает оболочка совместимости DefaultOperators.&lt;.ctor&gt;b__c(ExpressionParser p, Node a, Node b)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimDefaultOperators._ctorb__dExpressionParserNodeNode">
+            <summary>Задает оболочка совместимости DefaultOperators.&lt;.ctor&gt;b__d(ExpressionParser p, Node a, Node b)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimDefaultOperators._ctorb__eExpressionParserNodeNode">
+            <summary>Задает оболочка совместимости DefaultOperators.&lt;.ctor&gt;b__e(ExpressionParser p, Node a, Node b)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimDefaultOperators._ctorb__fExpressionParserNodeNode">
+            <summary>Задает оболочка совместимости DefaultOperators.&lt;.ctor&gt;b__f(ExpressionParser p, Node a, Node b)</summary>
+        </member>
+        <member name="T:info.lundin.math.Fakes.ShimDefaultOperators.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimDefaultOperators.AllInstances.OperatorsGet">
+            <summary>Задает оболочка совместимости DefaultOperators.get_Operators()</summary>
+        </member>
+        <member name="T:info.lundin.math.Fakes.ShimDoubleValue">
+            <summary>Тип оболочки совместимости для info.lundin.math.DoubleValue</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.ShimDoubleValue.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.ShimDoubleValue.#ctor(info.lundin.math.DoubleValue)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.ShimDoubleValue.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.ShimDoubleValue.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimDoubleValue.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimDoubleValue.Constructor">
+            <summary>Задает оболочка совместимости DoubleValue.DoubleValue()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimDoubleValue.SetValueDouble">
+            <summary>Задает оболочка совместимости DoubleValue.SetValue(Double value)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimDoubleValue.SetValueDoubleIFormatProvider">
+            <summary>Задает оболочка совместимости DoubleValue.SetValue(Double value, IFormatProvider format)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimDoubleValue.SetValueString">
+            <summary>Задает оболочка совместимости DoubleValue.SetValue(String value)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimDoubleValue.SetValueStringIFormatProvider">
+            <summary>Задает оболочка совместимости DoubleValue.SetValue(String value, IFormatProvider format)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimDoubleValue.ToDouble">
+            <summary>Задает оболочка совместимости DoubleValue.ToDouble()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimDoubleValue.ToDoubleIFormatProvider">
+            <summary>Задает оболочка совместимости DoubleValue.ToDouble(IFormatProvider format)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimDoubleValue.ToString">
+            <summary>Задает оболочка совместимости DoubleValue.ToString()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimDoubleValue.ToStringIFormatProvider">
+            <summary>Задает оболочка совместимости DoubleValue.ToString(IFormatProvider format)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimDoubleValue.ValueGet">
+            <summary>Задает оболочка совместимости DoubleValue.get_Value()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimDoubleValue.ValueSetDouble">
+            <summary>Задает оболочка совместимости DoubleValue.set_Value(Double value)</summary>
+        </member>
+        <member name="T:info.lundin.math.Fakes.ShimDoubleValue.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimDoubleValue.AllInstances.SetValueDouble">
+            <summary>Задает оболочка совместимости DoubleValue.SetValue(Double value)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimDoubleValue.AllInstances.SetValueDoubleIFormatProvider">
+            <summary>Задает оболочка совместимости DoubleValue.SetValue(Double value, IFormatProvider format)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimDoubleValue.AllInstances.SetValueString">
+            <summary>Задает оболочка совместимости DoubleValue.SetValue(String value)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimDoubleValue.AllInstances.SetValueStringIFormatProvider">
+            <summary>Задает оболочка совместимости DoubleValue.SetValue(String value, IFormatProvider format)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimDoubleValue.AllInstances.ToDouble">
+            <summary>Задает оболочка совместимости DoubleValue.ToDouble()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimDoubleValue.AllInstances.ToDoubleIFormatProvider">
+            <summary>Задает оболочка совместимости DoubleValue.ToDouble(IFormatProvider format)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimDoubleValue.AllInstances.ToString01">
+            <summary>Задает оболочка совместимости DoubleValue.ToString()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimDoubleValue.AllInstances.ToStringIFormatProvider">
+            <summary>Задает оболочка совместимости DoubleValue.ToString(IFormatProvider format)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimDoubleValue.AllInstances.ValueGet">
+            <summary>Задает оболочка совместимости DoubleValue.get_Value()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimDoubleValue.AllInstances.ValueSetDouble">
+            <summary>Задает оболочка совместимости DoubleValue.set_Value(Double value)</summary>
+        </member>
+        <member name="T:info.lundin.math.Fakes.ShimExpression">
+            <summary>Тип оболочки совместимости для info.lundin.math.Expression</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.ShimExpression.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.ShimExpression.#ctor(info.lundin.math.Expression)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.ShimExpression.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.ShimExpression.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimExpression.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimExpression.Constructor">
+            <summary>Задает оболочка совместимости Expression.Expression()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimExpression.ConstructorNode">
+            <summary>Задает оболочка совместимости Expression.Expression(Node tree)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimExpression.ExpressionTreeGet">
+            <summary>Задает оболочка совместимости Expression.get_ExpressionTree()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimExpression.ExpressionTreeSetNode">
+            <summary>Задает оболочка совместимости Expression.set_ExpressionTree(Node value)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimExpression.LoadStream">
+            <summary>Задает оболочка совместимости Expression.Load(Stream stream)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimExpression.SaveStream">
+            <summary>Задает оболочка совместимости Expression.Save(Stream stream)</summary>
+        </member>
+        <member name="T:info.lundin.math.Fakes.ShimExpression.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimExpression.AllInstances.ExpressionTreeGet">
+            <summary>Задает оболочка совместимости Expression.get_ExpressionTree()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimExpression.AllInstances.ExpressionTreeSetNode">
+            <summary>Задает оболочка совместимости Expression.set_ExpressionTree(Node value)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimExpression.AllInstances.LoadStream">
+            <summary>Задает оболочка совместимости Expression.Load(Stream stream)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimExpression.AllInstances.SaveStream">
+            <summary>Задает оболочка совместимости Expression.Save(Stream stream)</summary>
+        </member>
+        <member name="T:info.lundin.math.Fakes.ShimExpressionDictionary">
+            <summary>Тип оболочки совместимости для info.lundin.math.ExpressionDictionary</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.ShimExpressionDictionary.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.ShimExpressionDictionary.#ctor(info.lundin.math.ExpressionDictionary)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.ShimExpressionDictionary.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.ShimExpressionDictionary.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.ShimExpressionDictionary.Bind(System.Collections.IEnumerable)">
+            <summary>Привязка членов интерфейса к оболочке совместимости.</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.ShimExpressionDictionary.Bind(System.Collections.Generic.ICollection{System.Collections.Generic.KeyValuePair{System.String,info.lundin.math.Expression}})">
+            <summary>Привязка членов интерфейса к оболочке совместимости.</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.ShimExpressionDictionary.Bind(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,info.lundin.math.Expression}})">
+            <summary>Привязка членов интерфейса к оболочке совместимости.</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.ShimExpressionDictionary.Bind(System.Collections.Generic.IDictionary{System.String,info.lundin.math.Expression})">
+            <summary>Привязка членов интерфейса к оболочке совместимости.</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimExpressionDictionary.AddKeyValuePairOfStringExpression">
+            <summary>Задает оболочка совместимости ExpressionDictionary.Add(KeyValuePair`2&lt;String,Expression&gt; item)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimExpressionDictionary.AddStringExpression">
+            <summary>Задает оболочка совместимости ExpressionDictionary.Add(String key, Expression value)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimExpressionDictionary.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimExpressionDictionary.Clear">
+            <summary>Задает оболочка совместимости ExpressionDictionary.Clear()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimExpressionDictionary.Constructor">
+            <summary>Задает оболочка совместимости ExpressionDictionary.ExpressionDictionary()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimExpressionDictionary.ContainsKeyString">
+            <summary>Задает оболочка совместимости ExpressionDictionary.ContainsKey(String key)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimExpressionDictionary.ContainsKeyValuePairOfStringExpression">
+            <summary>Задает оболочка совместимости ExpressionDictionary.Contains(KeyValuePair`2&lt;String,Expression&gt; item)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimExpressionDictionary.CopyToKeyValuePairOfStringExpressionArrayInt32">
+            <summary>Задает оболочка совместимости ExpressionDictionary.CopyTo(KeyValuePair`2&lt;String,Expression&gt;[] array, Int32 arrayIndex)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimExpressionDictionary.CountGet">
+            <summary>Задает оболочка совместимости ExpressionDictionary.get_Count()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimExpressionDictionary.GetEnumerator">
+            <summary>Задает оболочка совместимости ExpressionDictionary.GetEnumerator()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimExpressionDictionary.IsReadOnlyGet">
+            <summary>Задает оболочка совместимости ExpressionDictionary.get_IsReadOnly()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimExpressionDictionary.ItemGetString">
+            <summary>Задает оболочка совместимости ExpressionDictionary.get_Item(String key)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimExpressionDictionary.ItemSetStringExpression">
+            <summary>Задает оболочка совместимости ExpressionDictionary.set_Item(String key, Expression value)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimExpressionDictionary.KeysGet">
+            <summary>Задает оболочка совместимости ExpressionDictionary.get_Keys()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimExpressionDictionary.LoadStream">
+            <summary>Задает оболочка совместимости ExpressionDictionary.Load(Stream stream)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimExpressionDictionary.RemoveKeyValuePairOfStringExpression">
+            <summary>Задает оболочка совместимости ExpressionDictionary.Remove(KeyValuePair`2&lt;String,Expression&gt; item)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimExpressionDictionary.RemoveString">
+            <summary>Задает оболочка совместимости ExpressionDictionary.Remove(String key)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimExpressionDictionary.SaveStream">
+            <summary>Задает оболочка совместимости ExpressionDictionary.Save(Stream stream)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimExpressionDictionary.SystemCollectionsIEnumerableGetEnumerator">
+            <summary>Задает оболочка совместимости ExpressionDictionary.System.Collections.IEnumerable.GetEnumerator()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimExpressionDictionary.TryGetValueStringExpressionOut">
+            <summary>Задает оболочка совместимости ExpressionDictionary.TryGetValue(String key, Expression&amp; value)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimExpressionDictionary.ValuesGet">
+            <summary>Задает оболочка совместимости ExpressionDictionary.get_Values()</summary>
+        </member>
+        <member name="T:info.lundin.math.Fakes.ShimExpressionDictionary.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimExpressionDictionary.AllInstances.AddKeyValuePairOfStringExpression">
+            <summary>Задает оболочка совместимости ExpressionDictionary.Add(KeyValuePair`2&lt;String,Expression&gt; item)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimExpressionDictionary.AllInstances.AddStringExpression">
+            <summary>Задает оболочка совместимости ExpressionDictionary.Add(String key, Expression value)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimExpressionDictionary.AllInstances.Clear">
+            <summary>Задает оболочка совместимости ExpressionDictionary.Clear()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimExpressionDictionary.AllInstances.ContainsKeyString">
+            <summary>Задает оболочка совместимости ExpressionDictionary.ContainsKey(String key)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimExpressionDictionary.AllInstances.ContainsKeyValuePairOfStringExpression">
+            <summary>Задает оболочка совместимости ExpressionDictionary.Contains(KeyValuePair`2&lt;String,Expression&gt; item)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimExpressionDictionary.AllInstances.CopyToKeyValuePairOfStringExpressionArrayInt32">
+            <summary>Задает оболочка совместимости ExpressionDictionary.CopyTo(KeyValuePair`2&lt;String,Expression&gt;[] array, Int32 arrayIndex)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimExpressionDictionary.AllInstances.CountGet">
+            <summary>Задает оболочка совместимости ExpressionDictionary.get_Count()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimExpressionDictionary.AllInstances.GetEnumerator">
+            <summary>Задает оболочка совместимости ExpressionDictionary.GetEnumerator()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimExpressionDictionary.AllInstances.IsReadOnlyGet">
+            <summary>Задает оболочка совместимости ExpressionDictionary.get_IsReadOnly()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimExpressionDictionary.AllInstances.ItemGetString">
+            <summary>Задает оболочка совместимости ExpressionDictionary.get_Item(String key)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimExpressionDictionary.AllInstances.ItemSetStringExpression">
+            <summary>Задает оболочка совместимости ExpressionDictionary.set_Item(String key, Expression value)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimExpressionDictionary.AllInstances.KeysGet">
+            <summary>Задает оболочка совместимости ExpressionDictionary.get_Keys()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimExpressionDictionary.AllInstances.LoadStream">
+            <summary>Задает оболочка совместимости ExpressionDictionary.Load(Stream stream)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimExpressionDictionary.AllInstances.RemoveKeyValuePairOfStringExpression">
+            <summary>Задает оболочка совместимости ExpressionDictionary.Remove(KeyValuePair`2&lt;String,Expression&gt; item)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimExpressionDictionary.AllInstances.RemoveString">
+            <summary>Задает оболочка совместимости ExpressionDictionary.Remove(String key)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimExpressionDictionary.AllInstances.SaveStream">
+            <summary>Задает оболочка совместимости ExpressionDictionary.Save(Stream stream)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimExpressionDictionary.AllInstances.SystemCollectionsIEnumerableGetEnumerator">
+            <summary>Задает оболочка совместимости ExpressionDictionary.System.Collections.IEnumerable.GetEnumerator()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimExpressionDictionary.AllInstances.TryGetValueStringExpressionOut">
+            <summary>Задает оболочка совместимости ExpressionDictionary.TryGetValue(String key, Expression&amp; value)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimExpressionDictionary.AllInstances.ValuesGet">
+            <summary>Задает оболочка совместимости ExpressionDictionary.get_Values()</summary>
+        </member>
+        <member name="T:info.lundin.math.Fakes.ShimExpressionParser">
+            <summary>Тип оболочки совместимости для info.lundin.math.ExpressionParser</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.ShimExpressionParser.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.ShimExpressionParser.#ctor(info.lundin.math.ExpressionParser)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.ShimExpressionParser.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.ShimExpressionParser.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimExpressionParser.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimExpressionParser.Constructor">
+            <summary>Задает оболочка совместимости ExpressionParser.ExpressionParser()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimExpressionParser.CultureGet">
+            <summary>Задает оболочка совместимости ExpressionParser.get_Culture()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimExpressionParser.CultureSetCultureInfo">
+            <summary>Задает оболочка совместимости ExpressionParser.set_Culture(CultureInfo value)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimExpressionParser.EvalExpressionExpression">
+            <summary>Задает оболочка совместимости ExpressionParser.EvalExpression(Expression expression)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimExpressionParser.EvalTreeNode">
+            <summary>Задает оболочка совместимости ExpressionParser.EvalTree(Node tree)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimExpressionParser.ExpressionsGet">
+            <summary>Задает оболочка совместимости ExpressionParser.get_Expressions()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimExpressionParser.GetValueNode">
+            <summary>Задает оболочка совместимости ExpressionParser.GetValue(Node node)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimExpressionParser.ImplicitMultiplicationGet">
+            <summary>Задает оболочка совместимости ExpressionParser.get_ImplicitMultiplication()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimExpressionParser.ImplicitMultiplicationSetBoolean">
+            <summary>Задает оболочка совместимости ExpressionParser.set_ImplicitMultiplication(Boolean value)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimExpressionParser.ParseString">
+            <summary>Задает оболочка совместимости ExpressionParser.Parse(String exp)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimExpressionParser.RequireParenthesesGet">
+            <summary>Задает оболочка совместимости ExpressionParser.get_RequireParentheses()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimExpressionParser.RequireParenthesesSetBoolean">
+            <summary>Задает оболочка совместимости ExpressionParser.set_RequireParentheses(Boolean value)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimExpressionParser.ValuesGet">
+            <summary>Задает оболочка совместимости ExpressionParser.get_Values()</summary>
+        </member>
+        <member name="T:info.lundin.math.Fakes.ShimExpressionParser.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimExpressionParser.AllInstances.CultureGet">
+            <summary>Задает оболочка совместимости ExpressionParser.get_Culture()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimExpressionParser.AllInstances.CultureSetCultureInfo">
+            <summary>Задает оболочка совместимости ExpressionParser.set_Culture(CultureInfo value)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimExpressionParser.AllInstances.EvalExpressionExpression">
+            <summary>Задает оболочка совместимости ExpressionParser.EvalExpression(Expression expression)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimExpressionParser.AllInstances.EvalTreeNode">
+            <summary>Задает оболочка совместимости ExpressionParser.EvalTree(Node tree)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimExpressionParser.AllInstances.ExpressionsGet">
+            <summary>Задает оболочка совместимости ExpressionParser.get_Expressions()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimExpressionParser.AllInstances.GetValueNode">
+            <summary>Задает оболочка совместимости ExpressionParser.GetValue(Node node)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimExpressionParser.AllInstances.ImplicitMultiplicationGet">
+            <summary>Задает оболочка совместимости ExpressionParser.get_ImplicitMultiplication()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimExpressionParser.AllInstances.ImplicitMultiplicationSetBoolean">
+            <summary>Задает оболочка совместимости ExpressionParser.set_ImplicitMultiplication(Boolean value)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimExpressionParser.AllInstances.ParseString">
+            <summary>Задает оболочка совместимости ExpressionParser.Parse(String exp)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimExpressionParser.AllInstances.RequireParenthesesGet">
+            <summary>Задает оболочка совместимости ExpressionParser.get_RequireParentheses()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimExpressionParser.AllInstances.RequireParenthesesSetBoolean">
+            <summary>Задает оболочка совместимости ExpressionParser.set_RequireParentheses(Boolean value)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimExpressionParser.AllInstances.ValuesGet">
+            <summary>Задает оболочка совместимости ExpressionParser.get_Values()</summary>
+        </member>
+        <member name="T:info.lundin.math.Fakes.ShimMathExtra">
+            <summary>Тип оболочки совместимости для info.lundin.math.MathExtra</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.ShimMathExtra.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.ShimMathExtra.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.ShimMathExtra.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimMathExtra.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimMathExtra.FacDouble">
+            <summary>Задает оболочка совместимости MathExtra.Fac(Double val)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimMathExtra.FpartDouble">
+            <summary>Задает оболочка совместимости MathExtra.Fpart(Double val)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimMathExtra.IsEvenInt32">
+            <summary>Задает оболочка совместимости MathExtra.IsEven(Int32 a)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimMathExtra.IsIntegerDouble">
+            <summary>Задает оболочка совместимости MathExtra.IsInteger(Double a)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimMathExtra.SfacDouble">
+            <summary>Задает оболочка совместимости MathExtra.Sfac(Double val)</summary>
+        </member>
+        <member name="T:info.lundin.math.Fakes.ShimNode">
+            <summary>Тип оболочки совместимости для info.lundin.math.Node</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.ShimNode.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.ShimNode.#ctor(info.lundin.math.Node)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.ShimNode.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.ShimNode.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimNode.ArgumentsGet">
+            <summary>Задает оболочка совместимости Node.get_Arguments()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimNode.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimNode.ConstructorDouble">
+            <summary>Задает оболочка совместимости Node.Node(Double value)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimNode.ConstructorOperatorNode">
+            <summary>Задает оболочка совместимости Node.Node(Operator op, Node arg1)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimNode.ConstructorOperatorNodeNode">
+            <summary>Задает оболочка совместимости Node.Node(Operator op, Node arg1, Node arg2)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimNode.ConstructorString">
+            <summary>Задает оболочка совместимости Node.Node(String variable)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimNode.FirstArgumentGet">
+            <summary>Задает оболочка совместимости Node.get_FirstArgument()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimNode.OperatorGet">
+            <summary>Задает оболочка совместимости Node.get_Operator()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimNode.SecondArgumentGet">
+            <summary>Задает оболочка совместимости Node.get_SecondArgument()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimNode.TypeGet">
+            <summary>Задает оболочка совместимости Node.get_Type()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimNode.ValueGet">
+            <summary>Задает оболочка совместимости Node.get_Value()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimNode.ValueSetValue">
+            <summary>Задает оболочка совместимости Node.set_Value(Value value)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimNode.VariableGet">
+            <summary>Задает оболочка совместимости Node.get_Variable()</summary>
+        </member>
+        <member name="T:info.lundin.math.Fakes.ShimNode.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimNode.AllInstances.ArgumentsGet">
+            <summary>Задает оболочка совместимости Node.get_Arguments()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimNode.AllInstances.FirstArgumentGet">
+            <summary>Задает оболочка совместимости Node.get_FirstArgument()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimNode.AllInstances.OperatorGet">
+            <summary>Задает оболочка совместимости Node.get_Operator()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimNode.AllInstances.SecondArgumentGet">
+            <summary>Задает оболочка совместимости Node.get_SecondArgument()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimNode.AllInstances.TypeGet">
+            <summary>Задает оболочка совместимости Node.get_Type()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimNode.AllInstances.ValueGet">
+            <summary>Задает оболочка совместимости Node.get_Value()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimNode.AllInstances.ValueSetValue">
+            <summary>Задает оболочка совместимости Node.set_Value(Value value)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimNode.AllInstances.VariableGet">
+            <summary>Задает оболочка совместимости Node.get_Variable()</summary>
+        </member>
+        <member name="T:info.lundin.math.Fakes.ShimOperator">
+            <summary>Тип оболочки совместимости для info.lundin.math.Operator</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.ShimOperator.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.ShimOperator.#ctor(info.lundin.math.Operator)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.ShimOperator.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.ShimOperator.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimOperator.ArgumentsGet">
+            <summary>Задает оболочка совместимости Operator.get_Arguments()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimOperator.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimOperator.ConstructorStringInt32Int32OperatorEvaluator">
+            <summary>Задает оболочка совместимости Operator.Operator(String _operator, Int32 arguments, Int32 precedence, Evaluator eval)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimOperator.EvalGet">
+            <summary>Задает оболочка совместимости Operator.get_Eval()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimOperator.PrecedenceGet">
+            <summary>Задает оболочка совместимости Operator.get_Precedence()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimOperator.SymbolGet">
+            <summary>Задает оболочка совместимости Operator.get_Symbol()</summary>
+        </member>
+        <member name="T:info.lundin.math.Fakes.ShimOperator.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimOperator.AllInstances.ArgumentsGet">
+            <summary>Задает оболочка совместимости Operator.get_Arguments()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimOperator.AllInstances.EvalGet">
+            <summary>Задает оболочка совместимости Operator.get_Eval()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimOperator.AllInstances.PrecedenceGet">
+            <summary>Задает оболочка совместимости Operator.get_Precedence()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimOperator.AllInstances.SymbolGet">
+            <summary>Задает оболочка совместимости Operator.get_Symbol()</summary>
+        </member>
+        <member name="T:info.lundin.math.Fakes.ShimParserException">
+            <summary>Тип оболочки совместимости для info.lundin.math.ParserException</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.ShimParserException.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.ShimParserException.#ctor(info.lundin.math.ParserException)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.ShimParserException.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.ShimParserException.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.ShimParserException.Bind(System.Runtime.Serialization.ISerializable)">
+            <summary>Привязка членов интерфейса к оболочке совместимости.</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimParserException.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimParserException.Constructor">
+            <summary>Задает оболочка совместимости ParserException.ParserException()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimParserException.ConstructorString">
+            <summary>Задает оболочка совместимости ParserException.ParserException(String message)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimParserException.ConstructorStringException">
+            <summary>Задает оболочка совместимости ParserException.ParserException(String message, Exception inner)</summary>
+        </member>
+        <member name="T:info.lundin.math.Fakes.ShimParserException.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="T:info.lundin.math.Fakes.ShimStringValue">
+            <summary>Тип оболочки совместимости для info.lundin.math.StringValue</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.ShimStringValue.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.ShimStringValue.#ctor(info.lundin.math.StringValue)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.ShimStringValue.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.ShimStringValue.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimStringValue.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimStringValue.Constructor">
+            <summary>Задает оболочка совместимости StringValue.StringValue()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimStringValue.SetValueDouble">
+            <summary>Задает оболочка совместимости StringValue.SetValue(Double value)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimStringValue.SetValueDoubleIFormatProvider">
+            <summary>Задает оболочка совместимости StringValue.SetValue(Double value, IFormatProvider format)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimStringValue.SetValueString">
+            <summary>Задает оболочка совместимости StringValue.SetValue(String value)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimStringValue.SetValueStringIFormatProvider">
+            <summary>Задает оболочка совместимости StringValue.SetValue(String value, IFormatProvider format)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimStringValue.ToDouble">
+            <summary>Задает оболочка совместимости StringValue.ToDouble()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimStringValue.ToDoubleIFormatProvider">
+            <summary>Задает оболочка совместимости StringValue.ToDouble(IFormatProvider format)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimStringValue.ToString">
+            <summary>Задает оболочка совместимости StringValue.ToString()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimStringValue.ToStringIFormatProvider">
+            <summary>Задает оболочка совместимости StringValue.ToString(IFormatProvider format)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimStringValue.ValueGet">
+            <summary>Задает оболочка совместимости StringValue.get_Value()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimStringValue.ValueSetString">
+            <summary>Задает оболочка совместимости StringValue.set_Value(String value)</summary>
+        </member>
+        <member name="T:info.lundin.math.Fakes.ShimStringValue.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimStringValue.AllInstances.SetValueDouble">
+            <summary>Задает оболочка совместимости StringValue.SetValue(Double value)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimStringValue.AllInstances.SetValueDoubleIFormatProvider">
+            <summary>Задает оболочка совместимости StringValue.SetValue(Double value, IFormatProvider format)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimStringValue.AllInstances.SetValueString">
+            <summary>Задает оболочка совместимости StringValue.SetValue(String value)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimStringValue.AllInstances.SetValueStringIFormatProvider">
+            <summary>Задает оболочка совместимости StringValue.SetValue(String value, IFormatProvider format)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimStringValue.AllInstances.ToDouble">
+            <summary>Задает оболочка совместимости StringValue.ToDouble()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimStringValue.AllInstances.ToDoubleIFormatProvider">
+            <summary>Задает оболочка совместимости StringValue.ToDouble(IFormatProvider format)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimStringValue.AllInstances.ToString01">
+            <summary>Задает оболочка совместимости StringValue.ToString()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimStringValue.AllInstances.ToStringIFormatProvider">
+            <summary>Задает оболочка совместимости StringValue.ToString(IFormatProvider format)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimStringValue.AllInstances.ValueGet">
+            <summary>Задает оболочка совместимости StringValue.get_Value()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimStringValue.AllInstances.ValueSetString">
+            <summary>Задает оболочка совместимости StringValue.set_Value(String value)</summary>
+        </member>
+        <member name="T:info.lundin.math.Fakes.ShimTreeParser">
+            <summary>Тип оболочки совместимости для info.lundin.math.TreeParser</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.ShimTreeParser.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.ShimTreeParser.#ctor(info.lundin.math.TreeParser)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.ShimTreeParser.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.ShimTreeParser.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimTreeParser.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimTreeParser.ConstructorIDictionaryOfStringOperatorIDictionaryOfStringDouble">
+            <summary>Задает оболочка совместимости TreeParser.TreeParser(IDictionary`2&lt;String,Operator&gt; operators, IDictionary`2&lt;String,Double&gt; constants)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimTreeParser.CultureGet">
+            <summary>Задает оболочка совместимости TreeParser.get_Culture()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimTreeParser.CultureSetCultureInfo">
+            <summary>Задает оболочка совместимости TreeParser.set_Culture(CultureInfo value)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimTreeParser.ImplicitMultiplicationGet">
+            <summary>Задает оболочка совместимости TreeParser.get_ImplicitMultiplication()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimTreeParser.ImplicitMultiplicationSetBoolean">
+            <summary>Задает оболочка совместимости TreeParser.set_ImplicitMultiplication(Boolean value)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimTreeParser.ParseEString">
+            <summary>Задает оболочка совместимости TreeParser.ParseE(String exp)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimTreeParser.ParseImplicitString">
+            <summary>Задает оболочка совместимости TreeParser.ParseImplicit(String exp)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimTreeParser.ParseInfixString">
+            <summary>Задает оболочка совместимости TreeParser.ParseInfix(String exp)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimTreeParser.ParseString">
+            <summary>Задает оболочка совместимости TreeParser.Parse(String expression)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimTreeParser.RequireParenthesesGet">
+            <summary>Задает оболочка совместимости TreeParser.get_RequireParentheses()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimTreeParser.RequireParenthesesSetBoolean">
+            <summary>Задает оболочка совместимости TreeParser.set_RequireParentheses(Boolean value)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimTreeParser.SyntaxCheckString">
+            <summary>Задает оболочка совместимости TreeParser.SyntaxCheck(String exp)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimTreeParser.argStringStringInt32">
+            <summary>Задает оболочка совместимости TreeParser.arg(String _operator, String exp, Int32 index)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimTreeParser.backTrackString">
+            <summary>Задает оболочка совместимости TreeParser.backTrack(String str)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimTreeParser.getOpStringInt32">
+            <summary>Задает оболочка совместимости TreeParser.getOp(String exp, Int32 index)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimTreeParser.isAllowedSymChar">
+            <summary>Задает оболочка совместимости TreeParser.isAllowedSym(Char s)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimTreeParser.isAlphaChar">
+            <summary>Задает оболочка совместимости TreeParser.isAlpha(Char ch)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimTreeParser.isConstantChar">
+            <summary>Задает оболочка совместимости TreeParser.isConstant(Char ch)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimTreeParser.isConstantString">
+            <summary>Задает оболочка совместимости TreeParser.isConstant(String exp)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimTreeParser.isOperatorString">
+            <summary>Задает оболочка совместимости TreeParser.isOperator(String str)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimTreeParser.isTwoArgOpString">
+            <summary>Задает оболочка совместимости TreeParser.isTwoArgOp(String str)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimTreeParser.isVariableString">
+            <summary>Задает оболочка совместимости TreeParser.isVariable(String str)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimTreeParser.matchParantString">
+            <summary>Задает оболочка совместимости TreeParser.matchParant(String exp)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimTreeParser.matchStringInt32">
+            <summary>Задает оболочка совместимости TreeParser.match(String exp, Int32 index)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimTreeParser.skipSpacesString">
+            <summary>Задает оболочка совместимости TreeParser.skipSpaces(String str)</summary>
+        </member>
+        <member name="T:info.lundin.math.Fakes.ShimTreeParser.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimTreeParser.AllInstances.CultureGet">
+            <summary>Задает оболочка совместимости TreeParser.get_Culture()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimTreeParser.AllInstances.CultureSetCultureInfo">
+            <summary>Задает оболочка совместимости TreeParser.set_Culture(CultureInfo value)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimTreeParser.AllInstances.ImplicitMultiplicationGet">
+            <summary>Задает оболочка совместимости TreeParser.get_ImplicitMultiplication()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimTreeParser.AllInstances.ImplicitMultiplicationSetBoolean">
+            <summary>Задает оболочка совместимости TreeParser.set_ImplicitMultiplication(Boolean value)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimTreeParser.AllInstances.ParseEString">
+            <summary>Задает оболочка совместимости TreeParser.ParseE(String exp)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimTreeParser.AllInstances.ParseImplicitString">
+            <summary>Задает оболочка совместимости TreeParser.ParseImplicit(String exp)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimTreeParser.AllInstances.ParseInfixString">
+            <summary>Задает оболочка совместимости TreeParser.ParseInfix(String exp)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimTreeParser.AllInstances.ParseString">
+            <summary>Задает оболочка совместимости TreeParser.Parse(String expression)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimTreeParser.AllInstances.RequireParenthesesGet">
+            <summary>Задает оболочка совместимости TreeParser.get_RequireParentheses()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimTreeParser.AllInstances.RequireParenthesesSetBoolean">
+            <summary>Задает оболочка совместимости TreeParser.set_RequireParentheses(Boolean value)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimTreeParser.AllInstances.SyntaxCheckString">
+            <summary>Задает оболочка совместимости TreeParser.SyntaxCheck(String exp)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimTreeParser.AllInstances.argStringStringInt32">
+            <summary>Задает оболочка совместимости TreeParser.arg(String _operator, String exp, Int32 index)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimTreeParser.AllInstances.backTrackString">
+            <summary>Задает оболочка совместимости TreeParser.backTrack(String str)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimTreeParser.AllInstances.getOpStringInt32">
+            <summary>Задает оболочка совместимости TreeParser.getOp(String exp, Int32 index)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimTreeParser.AllInstances.isAllowedSymChar">
+            <summary>Задает оболочка совместимости TreeParser.isAllowedSym(Char s)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimTreeParser.AllInstances.isAlphaChar">
+            <summary>Задает оболочка совместимости TreeParser.isAlpha(Char ch)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimTreeParser.AllInstances.isConstantChar">
+            <summary>Задает оболочка совместимости TreeParser.isConstant(Char ch)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimTreeParser.AllInstances.isConstantString">
+            <summary>Задает оболочка совместимости TreeParser.isConstant(String exp)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimTreeParser.AllInstances.isOperatorString">
+            <summary>Задает оболочка совместимости TreeParser.isOperator(String str)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimTreeParser.AllInstances.isTwoArgOpString">
+            <summary>Задает оболочка совместимости TreeParser.isTwoArgOp(String str)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimTreeParser.AllInstances.isVariableString">
+            <summary>Задает оболочка совместимости TreeParser.isVariable(String str)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimTreeParser.AllInstances.matchParantString">
+            <summary>Задает оболочка совместимости TreeParser.matchParant(String exp)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimTreeParser.AllInstances.matchStringInt32">
+            <summary>Задает оболочка совместимости TreeParser.match(String exp, Int32 index)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimTreeParser.AllInstances.skipSpacesString">
+            <summary>Задает оболочка совместимости TreeParser.skipSpaces(String str)</summary>
+        </member>
+        <member name="T:info.lundin.math.Fakes.ShimValue">
+            <summary>Тип оболочки совместимости для info.lundin.math.Value</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.ShimValue.#ctor(info.lundin.math.Value)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.ShimValue.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.ShimValue.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimValue.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimValue.Constructor">
+            <summary>Задает оболочка совместимости Value.Value()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimValue.TypeGet">
+            <summary>Задает оболочка совместимости Value.get_Type()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimValue.TypeSetValueType">
+            <summary>Задает оболочка совместимости Value.set_Type(ValueType value)</summary>
+        </member>
+        <member name="T:info.lundin.math.Fakes.ShimValue.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimValue.AllInstances.TypeGet">
+            <summary>Задает оболочка совместимости Value.get_Type()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimValue.AllInstances.TypeSetValueType">
+            <summary>Задает оболочка совместимости Value.set_Type(ValueType value)</summary>
+        </member>
+        <member name="T:info.lundin.math.Fakes.ShimValuesDictionary">
+            <summary>Тип оболочки совместимости для info.lundin.math.ValuesDictionary</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.ShimValuesDictionary.#ctor">
+            <summary>Инициализация нового экземпляра оболочки совместимости</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.ShimValuesDictionary.#ctor(info.lundin.math.ValuesDictionary)">
+            <summary>Инициализация новой оболочки совместимости для заданного экземпляра</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.ShimValuesDictionary.BehaveAsCurrent">
+            <summary>Назначение поведения &quot;Current&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.ShimValuesDictionary.BehaveAsNotImplemented">
+            <summary>Назначение поведения &quot;NotImplemented&quot; всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.ShimValuesDictionary.Bind(System.Collections.IEnumerable)">
+            <summary>Привязка членов интерфейса к оболочке совместимости.</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.ShimValuesDictionary.Bind(System.Collections.Generic.ICollection{System.Collections.Generic.KeyValuePair{System.String,info.lundin.math.Value}})">
+            <summary>Привязка членов интерфейса к оболочке совместимости.</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.ShimValuesDictionary.Bind(System.Collections.Generic.IEnumerable{System.Collections.Generic.KeyValuePair{System.String,info.lundin.math.Value}})">
+            <summary>Привязка членов интерфейса к оболочке совместимости.</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.ShimValuesDictionary.Bind(System.Collections.Generic.IDictionary{System.String,info.lundin.math.Value})">
+            <summary>Привязка членов интерфейса к оболочке совместимости.</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimValuesDictionary.AddKeyValuePairOfStringValue">
+            <summary>Задает оболочка совместимости ValuesDictionary.Add(KeyValuePair`2&lt;String,Value&gt; item)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimValuesDictionary.AddStringDouble">
+            <summary>Задает оболочка совместимости ValuesDictionary.Add(String variable, Double value)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimValuesDictionary.AddStringString">
+            <summary>Задает оболочка совместимости ValuesDictionary.Add(String variable, String value)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimValuesDictionary.AddStringValue">
+            <summary>Задает оболочка совместимости ValuesDictionary.Add(String variable, Value value)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimValuesDictionary.Behavior">
+            <summary>Назначение поведения всем методам типа с оболочкой совместимости</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimValuesDictionary.Clear">
+            <summary>Задает оболочка совместимости ValuesDictionary.Clear()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimValuesDictionary.Constructor">
+            <summary>Задает оболочка совместимости ValuesDictionary.ValuesDictionary()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimValuesDictionary.ContainsKeyString">
+            <summary>Задает оболочка совместимости ValuesDictionary.ContainsKey(String key)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimValuesDictionary.ContainsKeyValuePairOfStringValue">
+            <summary>Задает оболочка совместимости ValuesDictionary.Contains(KeyValuePair`2&lt;String,Value&gt; item)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimValuesDictionary.CopyToKeyValuePairOfStringValueArrayInt32">
+            <summary>Задает оболочка совместимости ValuesDictionary.CopyTo(KeyValuePair`2&lt;String,Value&gt;[] array, Int32 arrayIndex)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimValuesDictionary.CountGet">
+            <summary>Задает оболочка совместимости ValuesDictionary.get_Count()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimValuesDictionary.GetEnumerator">
+            <summary>Задает оболочка совместимости ValuesDictionary.GetEnumerator()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimValuesDictionary.IsReadOnlyGet">
+            <summary>Задает оболочка совместимости ValuesDictionary.get_IsReadOnly()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimValuesDictionary.ItemGetString">
+            <summary>Задает оболочка совместимости ValuesDictionary.get_Item(String key)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimValuesDictionary.ItemSetStringValue">
+            <summary>Задает оболочка совместимости ValuesDictionary.set_Item(String key, Value value)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimValuesDictionary.KeysGet">
+            <summary>Задает оболочка совместимости ValuesDictionary.get_Keys()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimValuesDictionary.RemoveKeyValuePairOfStringValue">
+            <summary>Задает оболочка совместимости ValuesDictionary.Remove(KeyValuePair`2&lt;String,Value&gt; item)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimValuesDictionary.RemoveString">
+            <summary>Задает оболочка совместимости ValuesDictionary.Remove(String key)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimValuesDictionary.SystemCollectionsIEnumerableGetEnumerator">
+            <summary>Задает оболочка совместимости ValuesDictionary.System.Collections.IEnumerable.GetEnumerator()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimValuesDictionary.TryGetValueStringValueOut">
+            <summary>Задает оболочка совместимости ValuesDictionary.TryGetValue(String key, Value&amp; value)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimValuesDictionary.ValuesGet">
+            <summary>Задает оболочка совместимости ValuesDictionary.get_Values()</summary>
+        </member>
+        <member name="T:info.lundin.math.Fakes.ShimValuesDictionary.AllInstances">
+            <summary>Определение оболочек совместимости для всех членов экземпляров</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimValuesDictionary.AllInstances.AddKeyValuePairOfStringValue">
+            <summary>Задает оболочка совместимости ValuesDictionary.Add(KeyValuePair`2&lt;String,Value&gt; item)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimValuesDictionary.AllInstances.AddStringDouble">
+            <summary>Задает оболочка совместимости ValuesDictionary.Add(String variable, Double value)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimValuesDictionary.AllInstances.AddStringString">
+            <summary>Задает оболочка совместимости ValuesDictionary.Add(String variable, String value)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimValuesDictionary.AllInstances.AddStringValue">
+            <summary>Задает оболочка совместимости ValuesDictionary.Add(String variable, Value value)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimValuesDictionary.AllInstances.Clear">
+            <summary>Задает оболочка совместимости ValuesDictionary.Clear()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimValuesDictionary.AllInstances.ContainsKeyString">
+            <summary>Задает оболочка совместимости ValuesDictionary.ContainsKey(String key)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimValuesDictionary.AllInstances.ContainsKeyValuePairOfStringValue">
+            <summary>Задает оболочка совместимости ValuesDictionary.Contains(KeyValuePair`2&lt;String,Value&gt; item)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimValuesDictionary.AllInstances.CopyToKeyValuePairOfStringValueArrayInt32">
+            <summary>Задает оболочка совместимости ValuesDictionary.CopyTo(KeyValuePair`2&lt;String,Value&gt;[] array, Int32 arrayIndex)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimValuesDictionary.AllInstances.CountGet">
+            <summary>Задает оболочка совместимости ValuesDictionary.get_Count()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimValuesDictionary.AllInstances.GetEnumerator">
+            <summary>Задает оболочка совместимости ValuesDictionary.GetEnumerator()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimValuesDictionary.AllInstances.IsReadOnlyGet">
+            <summary>Задает оболочка совместимости ValuesDictionary.get_IsReadOnly()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimValuesDictionary.AllInstances.ItemGetString">
+            <summary>Задает оболочка совместимости ValuesDictionary.get_Item(String key)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimValuesDictionary.AllInstances.ItemSetStringValue">
+            <summary>Задает оболочка совместимости ValuesDictionary.set_Item(String key, Value value)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimValuesDictionary.AllInstances.KeysGet">
+            <summary>Задает оболочка совместимости ValuesDictionary.get_Keys()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimValuesDictionary.AllInstances.RemoveKeyValuePairOfStringValue">
+            <summary>Задает оболочка совместимости ValuesDictionary.Remove(KeyValuePair`2&lt;String,Value&gt; item)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimValuesDictionary.AllInstances.RemoveString">
+            <summary>Задает оболочка совместимости ValuesDictionary.Remove(String key)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimValuesDictionary.AllInstances.SystemCollectionsIEnumerableGetEnumerator">
+            <summary>Задает оболочка совместимости ValuesDictionary.System.Collections.IEnumerable.GetEnumerator()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimValuesDictionary.AllInstances.TryGetValueStringValueOut">
+            <summary>Задает оболочка совместимости ValuesDictionary.TryGetValue(String key, Value&amp; value)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.ShimValuesDictionary.AllInstances.ValuesGet">
+            <summary>Задает оболочка совместимости ValuesDictionary.get_Values()</summary>
+        </member>
+        <member name="T:info.lundin.math.Fakes.StubDefaultOperators">
+            <summary>Тип заглушки info.lundin.math.DefaultOperators</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.StubDefaultOperators.#ctor">
+            <summary>Инициализирует новый экземпляр</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.StubDefaultOperators.InitializeStub">
+            <summary>Инициализирует новый экземпляр type StubDefaultOperators</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.StubDefaultOperators.CallBase">
+            <summary>Получает или задает значение, указывающее, следует ли вызывать базовый метод вместо резервного поведения</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.StubDefaultOperators.InstanceBehavior">
+            <summary>Получает или задает поведение экземпляра.</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.StubDefaultOperators.InstanceObserver">
+            <summary>Получает или задает наблюдатель экземпляра.</summary>
+        </member>
+        <member name="T:info.lundin.math.Fakes.StubDoubleValue">
+            <summary>Тип заглушки info.lundin.math.DoubleValue</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.StubDoubleValue.#ctor">
+            <summary>Инициализирует новый экземпляр</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.StubDoubleValue.InitializeStub">
+            <summary>Инициализирует новый экземпляр type StubDoubleValue</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.StubDoubleValue.SetValue(System.Double)">
+            <summary>Задает заглушка DoubleValue.SetValue(Double value)</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.StubDoubleValue.SetValue(System.String)">
+            <summary>Задает заглушка DoubleValue.SetValue(String value)</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.StubDoubleValue.SetValue(System.String,System.IFormatProvider)">
+            <summary>Задает заглушка DoubleValue.SetValue(String value, IFormatProvider format)</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.StubDoubleValue.SetValue(System.Double,System.IFormatProvider)">
+            <summary>Задает заглушка DoubleValue.SetValue(Double value, IFormatProvider format)</summary>
+        </member>
+        <member name="F:info.lundin.math.Fakes.StubDoubleValue.SetValueDouble">
+            <summary>Задает stub DoubleValue.SetValue(Double value)</summary>
+        </member>
+        <member name="F:info.lundin.math.Fakes.StubDoubleValue.SetValueDoubleIFormatProvider">
+            <summary>Задает stub DoubleValue.SetValue(Double value, IFormatProvider format)</summary>
+        </member>
+        <member name="F:info.lundin.math.Fakes.StubDoubleValue.SetValueString">
+            <summary>Задает stub DoubleValue.SetValue(String value)</summary>
+        </member>
+        <member name="F:info.lundin.math.Fakes.StubDoubleValue.SetValueStringIFormatProvider">
+            <summary>Задает stub DoubleValue.SetValue(String value, IFormatProvider format)</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.StubDoubleValue.ToDouble">
+            <summary>Задает заглушка DoubleValue.ToDouble()</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.StubDoubleValue.ToDouble(System.IFormatProvider)">
+            <summary>Задает заглушка DoubleValue.ToDouble(IFormatProvider format)</summary>
+        </member>
+        <member name="F:info.lundin.math.Fakes.StubDoubleValue.ToDouble01">
+            <summary>Задает stub DoubleValue.ToDouble()</summary>
+        </member>
+        <member name="F:info.lundin.math.Fakes.StubDoubleValue.ToDoubleIFormatProvider">
+            <summary>Задает stub DoubleValue.ToDouble(IFormatProvider format)</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.StubDoubleValue.ToString">
+            <summary>Задает заглушка DoubleValue.ToString()</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.StubDoubleValue.ToString(System.IFormatProvider)">
+            <summary>Задает заглушка DoubleValue.ToString(IFormatProvider format)</summary>
+        </member>
+        <member name="F:info.lundin.math.Fakes.StubDoubleValue.ToString01">
+            <summary>Задает stub DoubleValue.ToString()</summary>
+        </member>
+        <member name="F:info.lundin.math.Fakes.StubDoubleValue.ToStringIFormatProvider">
+            <summary>Задает stub DoubleValue.ToString(IFormatProvider format)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.StubDoubleValue.CallBase">
+            <summary>Получает или задает значение, указывающее, следует ли вызывать базовый метод вместо резервного поведения</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.StubDoubleValue.InstanceBehavior">
+            <summary>Получает или задает поведение экземпляра.</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.StubDoubleValue.InstanceObserver">
+            <summary>Получает или задает наблюдатель экземпляра.</summary>
+        </member>
+        <member name="T:info.lundin.math.Fakes.StubExpression">
+            <summary>Тип заглушки info.lundin.math.Expression</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.StubExpression.#ctor">
+            <summary>Инициализирует новый экземпляр</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.StubExpression.#ctor(info.lundin.math.Node)">
+            <summary>Инициализирует новый экземпляр</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.StubExpression.InitializeStub">
+            <summary>Инициализирует новый экземпляр type StubExpression</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.StubExpression.CallBase">
+            <summary>Получает или задает значение, указывающее, следует ли вызывать базовый метод вместо резервного поведения</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.StubExpression.InstanceBehavior">
+            <summary>Получает или задает поведение экземпляра.</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.StubExpression.InstanceObserver">
+            <summary>Получает или задает наблюдатель экземпляра.</summary>
+        </member>
+        <member name="T:info.lundin.math.Fakes.StubExpressionDictionary">
+            <summary>Тип заглушки info.lundin.math.ExpressionDictionary</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.StubExpressionDictionary.#ctor">
+            <summary>Инициализирует новый экземпляр</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.StubExpressionDictionary.InitializeStub">
+            <summary>Инициализирует новый экземпляр type StubExpressionDictionary</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.StubExpressionDictionary.CallBase">
+            <summary>Получает или задает значение, указывающее, следует ли вызывать базовый метод вместо резервного поведения</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.StubExpressionDictionary.InstanceBehavior">
+            <summary>Получает или задает поведение экземпляра.</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.StubExpressionDictionary.InstanceObserver">
+            <summary>Получает или задает наблюдатель экземпляра.</summary>
+        </member>
+        <member name="T:info.lundin.math.Fakes.StubExpressionParser">
+            <summary>Тип заглушки info.lundin.math.ExpressionParser</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.StubExpressionParser.#ctor">
+            <summary>Инициализирует новый экземпляр</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.StubExpressionParser.InitializeStub">
+            <summary>Инициализирует новый экземпляр type StubExpressionParser</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.StubExpressionParser.CallBase">
+            <summary>Получает или задает значение, указывающее, следует ли вызывать базовый метод вместо резервного поведения</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.StubExpressionParser.InstanceBehavior">
+            <summary>Получает или задает поведение экземпляра.</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.StubExpressionParser.InstanceObserver">
+            <summary>Получает или задает наблюдатель экземпляра.</summary>
+        </member>
+        <member name="T:info.lundin.math.Fakes.StubOperator">
+            <summary>Тип заглушки info.lundin.math.Operator</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.StubOperator.#ctor(System.String,System.Int32,System.Int32,info.lundin.math.Operator.Evaluator)">
+            <summary>Инициализирует новый экземпляр</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.StubOperator.InitializeStub">
+            <summary>Инициализирует новый экземпляр type StubOperator</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.StubOperator.CallBase">
+            <summary>Получает или задает значение, указывающее, следует ли вызывать базовый метод вместо резервного поведения</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.StubOperator.InstanceBehavior">
+            <summary>Получает или задает поведение экземпляра.</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.StubOperator.InstanceObserver">
+            <summary>Получает или задает наблюдатель экземпляра.</summary>
+        </member>
+        <member name="T:info.lundin.math.Fakes.StubParserException">
+            <summary>Тип заглушки info.lundin.math.ParserException</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.StubParserException.#ctor">
+            <summary>Инициализирует новый экземпляр</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.StubParserException.#ctor(System.String)">
+            <summary>Инициализирует новый экземпляр</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.StubParserException.#ctor(System.String,System.Exception)">
+            <summary>Инициализирует новый экземпляр</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.StubParserException.AttachBackingFieldToHelpLink">
+            <summary>Присоединение делегатов для эмуляции StubParserException.HelpLink как свойства с резервным полем.</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.StubParserException.AttachBackingFieldToSource">
+            <summary>Присоединение делегатов для эмуляции StubParserException.Source как свойства с резервным полем.</summary>
+        </member>
+        <member name="F:info.lundin.math.Fakes.StubParserException.DataGet">
+            <summary>Задает stub Exception.get_Data()</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.StubParserException.GetBaseException">
+            <summary>Задает заглушка Exception.GetBaseException()</summary>
+        </member>
+        <member name="F:info.lundin.math.Fakes.StubParserException.GetBaseException01">
+            <summary>Задает stub Exception.GetBaseException()</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.StubParserException.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>Задает заглушка Exception.GetObjectData(SerializationInfo info, StreamingContext context)</summary>
+        </member>
+        <member name="F:info.lundin.math.Fakes.StubParserException.GetObjectDataSerializationInfoStreamingContext">
+            <summary>Задает stub Exception.GetObjectData(SerializationInfo info, StreamingContext context)</summary>
+        </member>
+        <member name="F:info.lundin.math.Fakes.StubParserException.HelpLinkGet">
+            <summary>Задает stub Exception.get_HelpLink()</summary>
+        </member>
+        <member name="F:info.lundin.math.Fakes.StubParserException.HelpLinkSetString">
+            <summary>Задает stub Exception.set_HelpLink(String value)</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.StubParserException.InitializeStub">
+            <summary>Инициализирует новый экземпляр type StubParserException</summary>
+        </member>
+        <member name="F:info.lundin.math.Fakes.StubParserException.MessageGet">
+            <summary>Задает stub Exception.get_Message()</summary>
+        </member>
+        <member name="F:info.lundin.math.Fakes.StubParserException.SourceGet">
+            <summary>Задает stub Exception.get_Source()</summary>
+        </member>
+        <member name="F:info.lundin.math.Fakes.StubParserException.SourceSetString">
+            <summary>Задает stub Exception.set_Source(String value)</summary>
+        </member>
+        <member name="F:info.lundin.math.Fakes.StubParserException.StackTraceGet">
+            <summary>Задает stub Exception.get_StackTrace()</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.StubParserException.ToString">
+            <summary>Задает заглушка Exception.ToString()</summary>
+        </member>
+        <member name="F:info.lundin.math.Fakes.StubParserException.ToString01">
+            <summary>Задает stub Exception.ToString()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.StubParserException.CallBase">
+            <summary>Получает или задает значение, указывающее, следует ли вызывать базовый метод вместо резервного поведения</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.StubParserException.Data">
+            <summary>Задает stub Exception.get_Data()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.StubParserException.HelpLink">
+            <summary>Задает stub Exception.get_HelpLink()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.StubParserException.InstanceBehavior">
+            <summary>Получает или задает поведение экземпляра.</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.StubParserException.InstanceObserver">
+            <summary>Получает или задает наблюдатель экземпляра.</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.StubParserException.Message">
+            <summary>Задает stub Exception.get_Message()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.StubParserException.Source">
+            <summary>Задает stub Exception.get_Source()</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.StubParserException.StackTrace">
+            <summary>Задает stub Exception.get_StackTrace()</summary>
+        </member>
+        <member name="T:info.lundin.math.Fakes.StubStringValue">
+            <summary>Тип заглушки info.lundin.math.StringValue</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.StubStringValue.#ctor">
+            <summary>Инициализирует новый экземпляр</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.StubStringValue.InitializeStub">
+            <summary>Инициализирует новый экземпляр type StubStringValue</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.StubStringValue.SetValue(System.Double)">
+            <summary>Задает заглушка StringValue.SetValue(Double value)</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.StubStringValue.SetValue(System.String)">
+            <summary>Задает заглушка StringValue.SetValue(String value)</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.StubStringValue.SetValue(System.String,System.IFormatProvider)">
+            <summary>Задает заглушка StringValue.SetValue(String value, IFormatProvider format)</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.StubStringValue.SetValue(System.Double,System.IFormatProvider)">
+            <summary>Задает заглушка StringValue.SetValue(Double value, IFormatProvider format)</summary>
+        </member>
+        <member name="F:info.lundin.math.Fakes.StubStringValue.SetValueDouble">
+            <summary>Задает stub StringValue.SetValue(Double value)</summary>
+        </member>
+        <member name="F:info.lundin.math.Fakes.StubStringValue.SetValueDoubleIFormatProvider">
+            <summary>Задает stub StringValue.SetValue(Double value, IFormatProvider format)</summary>
+        </member>
+        <member name="F:info.lundin.math.Fakes.StubStringValue.SetValueString">
+            <summary>Задает stub StringValue.SetValue(String value)</summary>
+        </member>
+        <member name="F:info.lundin.math.Fakes.StubStringValue.SetValueStringIFormatProvider">
+            <summary>Задает stub StringValue.SetValue(String value, IFormatProvider format)</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.StubStringValue.ToDouble">
+            <summary>Задает заглушка StringValue.ToDouble()</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.StubStringValue.ToDouble(System.IFormatProvider)">
+            <summary>Задает заглушка StringValue.ToDouble(IFormatProvider format)</summary>
+        </member>
+        <member name="F:info.lundin.math.Fakes.StubStringValue.ToDouble01">
+            <summary>Задает stub StringValue.ToDouble()</summary>
+        </member>
+        <member name="F:info.lundin.math.Fakes.StubStringValue.ToDoubleIFormatProvider">
+            <summary>Задает stub StringValue.ToDouble(IFormatProvider format)</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.StubStringValue.ToString">
+            <summary>Задает заглушка StringValue.ToString()</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.StubStringValue.ToString(System.IFormatProvider)">
+            <summary>Задает заглушка StringValue.ToString(IFormatProvider format)</summary>
+        </member>
+        <member name="F:info.lundin.math.Fakes.StubStringValue.ToString01">
+            <summary>Задает stub StringValue.ToString()</summary>
+        </member>
+        <member name="F:info.lundin.math.Fakes.StubStringValue.ToStringIFormatProvider">
+            <summary>Задает stub StringValue.ToString(IFormatProvider format)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.StubStringValue.CallBase">
+            <summary>Получает или задает значение, указывающее, следует ли вызывать базовый метод вместо резервного поведения</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.StubStringValue.InstanceBehavior">
+            <summary>Получает или задает поведение экземпляра.</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.StubStringValue.InstanceObserver">
+            <summary>Получает или задает наблюдатель экземпляра.</summary>
+        </member>
+        <member name="T:info.lundin.math.Fakes.StubTreeParser">
+            <summary>Тип заглушки info.lundin.math.TreeParser</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.StubTreeParser.#ctor(System.Collections.Generic.IDictionary{System.String,info.lundin.math.Operator},System.Collections.Generic.IDictionary{System.String,System.Double})">
+            <summary>Инициализирует новый экземпляр</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.StubTreeParser.InitializeStub">
+            <summary>Инициализирует новый экземпляр type StubTreeParser</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.StubTreeParser.CallBase">
+            <summary>Получает или задает значение, указывающее, следует ли вызывать базовый метод вместо резервного поведения</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.StubTreeParser.InstanceBehavior">
+            <summary>Получает или задает поведение экземпляра.</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.StubTreeParser.InstanceObserver">
+            <summary>Получает или задает наблюдатель экземпляра.</summary>
+        </member>
+        <member name="T:info.lundin.math.Fakes.StubValue">
+            <summary>Тип заглушки info.lundin.math.Value</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.StubValue.#ctor">
+            <summary>Инициализирует новый экземпляр</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.StubValue.InitializeStub">
+            <summary>Инициализирует новый экземпляр type StubValue</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.StubValue.SetValue(System.Double)">
+            <summary>Задает заглушка Value.SetValue(Double value)</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.StubValue.SetValue(System.String)">
+            <summary>Задает заглушка Value.SetValue(String value)</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.StubValue.SetValue(System.Double,System.IFormatProvider)">
+            <summary>Задает заглушка Value.SetValue(Double value, IFormatProvider format)</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.StubValue.SetValue(System.String,System.IFormatProvider)">
+            <summary>Задает заглушка Value.SetValue(String value, IFormatProvider format)</summary>
+        </member>
+        <member name="F:info.lundin.math.Fakes.StubValue.SetValueDouble">
+            <summary>Задает stub Value.SetValue(Double value)</summary>
+        </member>
+        <member name="F:info.lundin.math.Fakes.StubValue.SetValueDoubleIFormatProvider">
+            <summary>Задает stub Value.SetValue(Double value, IFormatProvider format)</summary>
+        </member>
+        <member name="F:info.lundin.math.Fakes.StubValue.SetValueString">
+            <summary>Задает stub Value.SetValue(String value)</summary>
+        </member>
+        <member name="F:info.lundin.math.Fakes.StubValue.SetValueStringIFormatProvider">
+            <summary>Задает stub Value.SetValue(String value, IFormatProvider format)</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.StubValue.ToDouble">
+            <summary>Задает заглушка Value.ToDouble()</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.StubValue.ToDouble(System.IFormatProvider)">
+            <summary>Задает заглушка Value.ToDouble(IFormatProvider format)</summary>
+        </member>
+        <member name="F:info.lundin.math.Fakes.StubValue.ToDouble01">
+            <summary>Задает stub Value.ToDouble()</summary>
+        </member>
+        <member name="F:info.lundin.math.Fakes.StubValue.ToDoubleIFormatProvider">
+            <summary>Задает stub Value.ToDouble(IFormatProvider format)</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.StubValue.ToString">
+            <summary>Задает заглушка Value.ToString()</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.StubValue.ToString(System.IFormatProvider)">
+            <summary>Задает заглушка Value.ToString(IFormatProvider format)</summary>
+        </member>
+        <member name="F:info.lundin.math.Fakes.StubValue.ToString01">
+            <summary>Задает stub Value.ToString()</summary>
+        </member>
+        <member name="F:info.lundin.math.Fakes.StubValue.ToStringIFormatProvider">
+            <summary>Задает stub Value.ToString(IFormatProvider format)</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.StubValue.CallBase">
+            <summary>Получает или задает значение, указывающее, следует ли вызывать базовый метод вместо резервного поведения</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.StubValue.InstanceBehavior">
+            <summary>Получает или задает поведение экземпляра.</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.StubValue.InstanceObserver">
+            <summary>Получает или задает наблюдатель экземпляра.</summary>
+        </member>
+        <member name="T:info.lundin.math.Fakes.StubValuesDictionary">
+            <summary>Тип заглушки info.lundin.math.ValuesDictionary</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.StubValuesDictionary.#ctor">
+            <summary>Инициализирует новый экземпляр</summary>
+        </member>
+        <member name="M:info.lundin.math.Fakes.StubValuesDictionary.InitializeStub">
+            <summary>Инициализирует новый экземпляр type StubValuesDictionary</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.StubValuesDictionary.CallBase">
+            <summary>Получает или задает значение, указывающее, следует ли вызывать базовый метод вместо резервного поведения</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.StubValuesDictionary.InstanceBehavior">
+            <summary>Получает или задает поведение экземпляра.</summary>
+        </member>
+        <member name="P:info.lundin.math.Fakes.StubValuesDictionary.InstanceObserver">
+            <summary>Получает или задает наблюдатель экземпляра.</summary>
+        </member>
+    </members>
+</doc>
