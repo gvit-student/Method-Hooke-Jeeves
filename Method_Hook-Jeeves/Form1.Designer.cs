@@ -232,7 +232,7 @@
             this.textBox8.Location = new System.Drawing.Point(12, 269);
             this.textBox8.Multiline = true;
             this.textBox8.Name = "textBox8";
-            this.textBox8.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal;
+            this.textBox8.ScrollBars = System.Windows.Forms.ScrollBars.Vertical;
             this.textBox8.Size = new System.Drawing.Size(351, 259);
             this.textBox8.TabIndex = 19;
             // 
