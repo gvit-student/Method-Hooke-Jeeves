@@ -27,6 +27,5 @@ C:\МЭИ\3 курс\РиСПСИТ\РЗ 21 вариант\Method_Hook-Jeeves\Me
 C:\МЭИ\3 курс\РиСПСИТ\РЗ 21 вариант\Method_Hook-Jeeves\Method_Hook-Jeeves\obj\Debug\Fakes\i\o\info.lundin.math.1.1.5287.18951.Fakes.dll
 C:\МЭИ\3 курс\РиСПСИТ\РЗ 21 вариант\Method_Hook-Jeeves\Method_Hook-Jeeves\obj\Debug\Fakes\i\o\info.lundin.math.1.1.5287.18951.Fakes.pdb
 C:\МЭИ\3 курс\РиСПСИТ\РЗ 21 вариант\Method_Hook-Jeeves\Method_Hook-Jeeves\bin\Debug\info.lundin.math.1.1.5287.18951.Fakes.fakesconfig
-C:\МЭИ\3 курс\РиСПСИТ\РЗ 21 вариант\Method_Hook-Jeeves\Method_Hook-Jeeves\bin\Debug\info.lundin.math.dll
 C:\МЭИ\3 курс\РиСПСИТ\РЗ 21 вариант\Method_Hook-Jeeves\Method_Hook-Jeeves\bin\Debug\Microsoft.QualityTools.Testing.Fakes.dll
 C:\МЭИ\3 курс\РиСПСИТ\РЗ 21 вариант\Method_Hook-Jeeves\Method_Hook-Jeeves\bin\Debug\ru\Microsoft.QualityTools.Testing.Fakes.resources.dll

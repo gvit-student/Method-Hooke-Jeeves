@@ -48,6 +48,7 @@
             this.textBox7 = new System.Windows.Forms.TextBox();
             this.panel1 = new System.Windows.Forms.Panel();
             this.label10 = new System.Windows.Forms.Label();
+            this.textBox8 = new System.Windows.Forms.TextBox();
             this.label11 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
@@ -226,21 +227,31 @@
             this.label10.TabIndex = 18;
             this.label10.Text = "Исходные данные";
             // 
+            // textBox8
+            // 
+            this.textBox8.Location = new System.Drawing.Point(12, 269);
+            this.textBox8.Multiline = true;
+            this.textBox8.Name = "textBox8";
+            this.textBox8.ScrollBars = System.Windows.Forms.ScrollBars.Horizontal;
+            this.textBox8.Size = new System.Drawing.Size(351, 259);
+            this.textBox8.TabIndex = 19;
+            // 
             // label11
             // 
             this.label11.AutoSize = true;
-            this.label11.Location = new System.Drawing.Point(14, 254);
+            this.label11.Location = new System.Drawing.Point(25, 253);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(41, 13);
-            this.label11.TabIndex = 19;
-            this.label11.Text = "label11";
+            this.label11.Size = new System.Drawing.Size(131, 13);
+            this.label11.TabIndex = 20;
+            this.label11.Text = "Результаты вычисления";
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(378, 292);
+            this.ClientSize = new System.Drawing.Size(378, 540);
             this.Controls.Add(this.label11);
+            this.Controls.Add(this.textBox8);
             this.Controls.Add(this.panel1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "MainForm";
@@ -273,6 +284,7 @@
         private System.Windows.Forms.TextBox textBox7;
         private System.Windows.Forms.Panel panel1;
         private System.Windows.Forms.Label label10;
+        private System.Windows.Forms.TextBox textBox8;
         private System.Windows.Forms.Label label11;
     }
 }
